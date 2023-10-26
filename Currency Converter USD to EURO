@@ -1,0 +1,10 @@
+def main():
+    print("Convert USD to EURO Here : ")
+    
+    usd = eval(input("Enter amount in USD : "))
+    
+    euro = convert_to_euro(usd)
+    print("That is", euro, "EURO.")
+convert_to_euro = lambda usd: usd*0.95
+
+main()
